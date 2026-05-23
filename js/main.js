@@ -28,6 +28,7 @@ const state = {
 // ===== DOM Helpers =====
 function $(sel) { return document.querySelector(sel); }
 function $$(sel) { return document.querySelectorAll(sel); }
+function escHTML(str) { const d=document.createElement('div'); d.textContent=str||''; return d.innerHTML; }
 
 // ===== Navigation =====
 function initNav() {
@@ -77,7 +78,7 @@ function renderProducts() {
 
   grid.innerHTML = state.filteredProducts.map(p => `
     <div class="product-card" data-brand="${p.brand}" data-category="${p.category}">
-      <div class="product-card-img"><span class="placeholder">${getCategoryEmoji(p.category)}</span></div>
+      <div class="product-card-img">${p.image ? '<img src="'+p.image+'" alt="'+escHTML(pname(p))+'" loading="lazy" onerror="this.parentElement.innerHTML=`<span class=placeholder>${getCategoryEmoji(p.category)}</span>`">' : '<span class="placeholder">'+getCategoryEmoji(p.category)+'</span>'}</div>
       ${p.badge ? '<span class="product-card-badge '+(p.badge==='hot'?'hot':'new')+'">'+(typeof i18n!=='undefined'?i18n.t(p.badge==='hot'?'hot_seller':'new_arrival'):(p.badge==='hot'?'Hot Seller':'New Arrival'))+'</span>' : ''}
       <div class="product-info">
         <span class="brand-tag">${(p.brand||'').charAt(0).toUpperCase()+(p.brand||'').slice(1)}</span>
