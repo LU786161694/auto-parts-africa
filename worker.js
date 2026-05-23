@@ -107,6 +107,11 @@ async function handleApi(request, path, method) {
     return json({ success: false, message: 'Invalid password' }, 401);
   }
 
+  // Public: get products
+  if (path === '/api/products' && method === 'GET') {
+    return json(productsCache);
+  }
+
   // Auth required for all other API routes
   const auth = request.headers.get('Authorization');
   if (!auth || !auth.startsWith('Bearer ')) {
@@ -117,11 +122,8 @@ async function handleApi(request, path, method) {
     return json({ error: 'Invalid token' }, 401);
   }
 
-  // Products CRUD
+  // Products CRUD (auth required)
   if (path === '/api/products') {
-    if (method === 'GET') {
-      return json(productsCache);
-    }
     if (method === 'POST') {
       const newProduct = {
         id: Date.now(),
