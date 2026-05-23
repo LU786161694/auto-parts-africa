@@ -117,6 +117,7 @@ function editProduct(id) {
   $('prodModel').value = p.model || '';
   $('prodBadge').value = p.badge || '';
   $('prodPrice').value = p.price || 'Inquiry for Price';
+  $('prodImage').value = p.image || '';
   $('prodDesc').value = p.description || '';
   $('modalTitle').textContent = 'Edit Product';
   $('modalOverlay').classList.add('active');
@@ -133,6 +134,7 @@ async function saveProduct(e) {
     model: $('prodModel').value,
     badge: $('prodBadge').value,
     price: $('prodPrice').value,
+    image: $('prodImage').value,
     description: $('prodDesc').value
   };
 
