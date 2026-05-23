@@ -498,16 +498,5 @@
     "model": "Vitara 2015-2022",
     "badge": "",
     "description": "Coolant expansion/overflow tank for Suzuki Vitara. Includes pressure cap and level sensor. Direct fit replacement."
-  },
-  {
-    "id": 1779534622969,
-    "name": "TEST Brake Pads UPDATED",
-    "brand": "toyota",
-    "category": "brakes",
-    "sku": "TST-BRK-001",
-    "model": "Test Model 2024",
-    "badge": "hot",
-    "description": "This is a test product created via API",
-    "price": "Inquiry for Price"
   }
 ]
