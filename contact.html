@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact AutoParts Africa for Japanese auto parts inquiries. Get a quote, ask about shipping, or speak with our team via WhatsApp, email or phone.">
+  <title>Contact Us | AutoParts Africa - Get a Quote</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="container">
+      <a href="index.html" class="nav-logo">Auto<span>Parts</span> Africa</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="contact.html" class="nav-contact-btn">Get Quote</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- Contact Hero -->
+  <section class="contact-hero">
+    <div class="container">
+      <h1>Get In <span>Touch</span></h1>
+      <p>We're here to help with your auto parts needs across Africa</p>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a><span>/</span><span>Contact</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Contact Info -->
+        <div class="contact-info-cards">
+          <div class="contact-info-card">
+            <span class="icon">&#128172;</span>
+            <div>
+              <h4>WhatsApp</h4>
+              <p>+86-xxx-xxxx-xxxx</p>
+              <p style="font-size:0.85rem;margin-top:4px;">Fastest response - available 24/7</p>
+            </div>
+          </div>
+          <div class="contact-info-card">
+            <span class="icon">&#128231;</span>
+            <div>
+              <h4>Email</h4>
+              <p>sales@autopartsafrica.com</p>
+              <p style="font-size:0.85rem;margin-top:4px;">We reply within 24 hours</p>
+            </div>
+          </div>
+          <div class="contact-info-card">
+            <span class="icon">&#128222;</span>
+            <div>
+              <h4>Phone</h4>
+              <p>+86-xxx-xxxx-xxxx</p>
+              <p style="font-size:0.85rem;margin-top:4px;">Mon-Fri 8:00-18:00 (GMT+8)</p>
+            </div>
+          </div>
+          <div class="contact-info-card">
+            <span class="icon">&#128205;</span>
+            <div>
+              <h4>Office Locations</h4>
+              <p>Guangzhou, China | Dubai, UAE</p>
+              <p style="font-size:0.85rem;margin-top:4px;">Serving all of Africa</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrap">
+          <h3>Send Us an Inquiry</h3>
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" placeholder="Your full name" required>
+              </div>
+              <div class="form-group">
+                <label for="company">Company Name</label>
+                <input type="text" id="company" name="company" placeholder="Your company name">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone / WhatsApp *</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your phone number with country code" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="country">Your Country *</label>
+                <select id="country" name="country" required>
+                  <option value="">Select country</option>
+                  <option value="NG">Nigeria</option>
+                  <option value="KE">Kenya</option>
+                  <option value="GH">Ghana</option>
+                  <option value="TZ">Tanzania</option>
+                  <option value="ET">Ethiopia</option>
+                  <option value="ZA">South Africa</option>
+                  <option value="UG">Uganda</option>
+                  <option value="CM">Cameroon</option>
+                  <option value="CI">Ivory Coast</option>
+                  <option value="SN">Senegal</option>
+                  <option value="ZM">Zambia</option>
+                  <option value="MZ">Mozambique</option>
+                  <option value="other">Other African Country</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="brand">Interested Brand</label>
+                <select id="brand" name="brand">
+                  <option value="">Select brand (optional)</option>
+                  <option value="toyota">Toyota</option>
+                  <option value="honda">Honda</option>
+                  <option value="nissan">Nissan</option>
+                  <option value="mitsubishi">Mitsubishi</option>
+                  <option value="suzuki">Suzuki</option>
+                  <option value="mazda">Mazda</option>
+                  <option value="subaru">Subaru</option>
+                  <option value="multiple">Multiple Brands</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inquiry">Inquiry Type *</label>
+              <select id="inquiry" name="inquiry" required>
+                <option value="">Select inquiry type</option>
+                <option value="quote">Request for Quotation</option>
+                <option value="catalog">Product Catalog Request</option>
+                <option value="shipping">Shipping & Logistics Inquiry</option>
+                <option value="partnership">Partnership Opportunity</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message / Parts List *</label>
+              <textarea id="message" name="message" placeholder="Please describe the parts you need, including: vehicle make/model/year, part names, quantities, and your preferred shipping method" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;">Send Inquiry</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section bg-light">
+    <div class="container">
+      <div class="section-header">
+        <h2>Frequently Asked Questions</h2>
+        <p>Common questions from our African clients</p>
+        <div class="divider"></div>
+      </div>
+      <div style="max-width:800px;margin:0 auto;">
+        <div style="margin-bottom:25px;">
+          <h4 style="margin-bottom:8px;color:var(--dark);">What shipping methods do you offer to Africa?</h4>
+          <p style="color:var(--text-light);line-height:1.7;">We offer sea freight (most economical for bulk orders) to all major African ports including Lagos, Mombasa, Dar es Salaam, Durban, and Accra. Air freight is available for urgent/smaller orders. Typical sea freight transit time is 25-40 days depending on destination.</p>
+        </div>
+        <div style="margin-bottom:25px;">
+          <h4 style="margin-bottom:8px;color:var(--dark);">Are your parts genuine or aftermarket?</h4>
+          <p style="color:var(--text-light);line-height:1.7;">We supply both genuine OEM parts and high-quality aftermarket alternatives. All aftermarket parts meet or exceed OEM specifications. We clearly indicate the grade of each product so you can make informed decisions based on your budget and requirements.</p>
+        </div>
+        <div style="margin-bottom:25px;">
+          <h4 style="margin-bottom:8px;color:var(--dark);">What is your minimum order quantity?</h4>
+          <p style="color:var(--text-light);line-height:1.7;">We accommodate orders of all sizes. For smaller orders, we can consolidate via LCL (Less than Container Load) shipping. For bulk orders, we offer full container load (FCL) with the best per-unit pricing. Contact us with your requirements for a tailored quote.</p>
+        </div>
+        <div style="margin-bottom:25px;">
+          <h4 style="margin-bottom:8px;color:var(--dark);">What payment methods do you accept?</h4>
+          <p style="color:var(--text-light);line-height:1.7;">We accept Telegraphic Transfer (TT), Letter of Credit (LC) for large orders, and other secure payment methods. Payment terms can be discussed based on order volume and relationship history.</p>
+        </div>
+        <div>
+          <h4 style="margin-bottom:8px;color:var(--dark);">Do you offer warranties on your parts?</h4>
+          <p style="color:var(--text-light);line-height:1.7;">Yes, all our parts come with a warranty against manufacturing defects. Warranty terms vary by product category and will be clearly stated in your quotation and invoice.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <h4>About AutoParts Africa</h4>
+          <p>Your premier source for Japanese automotive parts in Africa. Quality parts for Toyota, Honda, Nissan, Mitsubishi, Suzuki, Mazda and more.</p>
+          <p>Business hours: Mon-Fri 8:00-18:00 (GMT+8)</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Brands</h4>
+          <ul>
+            <li><a href="products.html?brand=toyota">Toyota Parts</a></li>
+            <li><a href="products.html?brand=honda">Honda Parts</a></li>
+            <li><a href="products.html?brand=nissan">Nissan Parts</a></li>
+            <li><a href="products.html?brand=mitsubishi">Mitsubishi Parts</a></li>
+            <li><a href="products.html?brand=suzuki">Suzuki Parts</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact Info</h4>
+          <p>&#128231; sales@autopartsafrica.com</p>
+          <p>&#128222; +86-xxx-xxxx-xxxx</p>
+          <p>&#128172; WhatsApp: +86-xxx-xxxx-xxxx</p>
+          <p>&#128205; Guangzhou, China / Dubai, UAE</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 <span>AutoParts Africa</span>. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/86xxxxxxxxxx" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">&#9990;</a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

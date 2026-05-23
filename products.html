@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse our complete catalog of Japanese car auto parts - Toyota, Honda, Nissan, Mitsubishi, Suzuki, Mazda. Engine parts, brakes, suspension, electrical and more.">
+  <title>Products | AutoParts Africa - Japanese Car Parts Catalog</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="container">
+      <a href="index.html" class="nav-logo">Auto<span>Parts</span> Africa</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="nav-contact-btn">Get Quote</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- Products Hero -->
+  <section class="products-hero">
+    <div class="container">
+      <h1>Our <span>Product</span> Catalog</h1>
+      <p>Extensive range of Japanese auto parts ready for shipment to Africa</p>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a><span>/</span><span>Products</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="section">
+    <div class="container">
+
+      <!-- Search & Filters -->
+      <div class="products-toolbar">
+        <div class="search-box">
+          <input type="text" id="searchInput" placeholder="Search parts by name, SKU or model...">
+          <button id="searchBtn" aria-label="Search">&#128269;</button>
+        </div>
+      </div>
+
+      <!-- Brand Filters -->
+      <div class="brand-filter" id="brandFilter">
+        <button class="brand-filter-btn active" data-brand="all">All Brands</button>
+        <button class="brand-filter-btn" data-brand="toyota">Toyota</button>
+        <button class="brand-filter-btn" data-brand="honda">Honda</button>
+        <button class="brand-filter-btn" data-brand="nissan">Nissan</button>
+        <button class="brand-filter-btn" data-brand="mitsubishi">Mitsubishi</button>
+        <button class="brand-filter-btn" data-brand="suzuki">Suzuki</button>
+        <button class="brand-filter-btn" data-brand="mazda">Mazda</button>
+        <button class="brand-filter-btn" data-brand="subaru">Subaru</button>
+      </div>
+
+      <!-- Category Tabs -->
+      <div class="filter-tabs" id="categoryFilter" style="margin-bottom:30px;">
+        <button class="filter-tab active" data-category="all">All Categories</button>
+        <button class="filter-tab" data-category="engine">Engine Parts</button>
+        <button class="filter-tab" data-category="brakes">Brake Systems</button>
+        <button class="filter-tab" data-category="suspension">Suspension</button>
+        <button class="filter-tab" data-category="electrical">Electrical</button>
+        <button class="filter-tab" data-category="transmission">Transmission</button>
+        <button class="filter-tab" data-category="body">Body Parts</button>
+        <button class="filter-tab" data-category="filters">Filters & Fluids</button>
+        <button class="filter-tab" data-category="cooling">Cooling</button>
+      </div>
+
+      <!-- Product Results Info -->
+      <div style="margin-bottom:20px;color:var(--text-light);">
+        <span id="resultCount">Showing all products</span>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid" id="productsGrid"></div>
+
+      <!-- No Results -->
+      <div id="noResults" style="display:none;text-align:center;padding:60px 20px;">
+        <div style="font-size:4rem;margin-bottom:20px;">&#128270;</div>
+        <h3 style="margin-bottom:10px;">No Products Found</h3>
+        <p style="color:var(--text-light);">Try adjusting your search or filter criteria</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <h2>Can't Find What You Need?</h2>
+      <p>Send us your parts list and we'll source it for you at the best price</p>
+      <a href="contact.html" class="btn btn-primary btn-large">Send Inquiry</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <h4>About AutoParts Africa</h4>
+          <p>Your premier source for Japanese automotive parts in Africa. We supply genuine and quality aftermarket parts to clients across the African continent.</p>
+          <p>Business hours: Mon-Fri 8:00-18:00 (GMT+8)</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Brands</h4>
+          <ul>
+            <li><a href="products.html?brand=toyota">Toyota Parts</a></li>
+            <li><a href="products.html?brand=honda">Honda Parts</a></li>
+            <li><a href="products.html?brand=nissan">Nissan Parts</a></li>
+            <li><a href="products.html?brand=mitsubishi">Mitsubishi Parts</a></li>
+            <li><a href="products.html?brand=suzuki">Suzuki Parts</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact Info</h4>
+          <p>&#128231; sales@autopartsafrica.com</p>
+          <p>&#128222; +86-xxx-xxxx-xxxx</p>
+          <p>&#128172; WhatsApp: +86-xxx-xxxx-xxxx</p>
+          <p>&#128205; Guangzhou, China / Dubai, UAE</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 <span>AutoParts Africa</span>. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/86xxxxxxxxxx" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">&#9990;</a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
