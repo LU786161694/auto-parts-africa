@@ -20,6 +20,9 @@ const i18n = {
       else if (el.tagName === 'META') { el.content = text; }
       else { el.textContent = text; }
     });
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+      el.placeholder = this.t(el.getAttribute('data-i18n-placeholder'));
+    });
     document.querySelectorAll('[data-i18n-html]').forEach(el => {
       el.innerHTML = this.t(el.getAttribute('data-i18n-html'));
     });
@@ -129,3 +132,35 @@ i18n.strings = {
   breadcrumb_contact:{ zh:'联系我们', en:'Contact',    es:'Contacto' },
   lang_label:     { zh:'中文',       en:'English',     es:'Espanol' },
 };
+
+// ===== EXTENDED KEYS =====
+hero_title_full:{ zh:'优质 <span>日系</span> 汽车配件<br>直达 <span>非洲</span>', en:'Premium <span>Japanese</span> Auto Parts<br>Delivered Across <span>Africa</span>', es:'<span>Autopartes</span> Japonesas Premium<br>Entregadas en Toda <span>Africa</span>' },
+prod_hero_full:{ zh:'我们的 <span>产品</span> 目录', en:'Our <span>Product</span> Catalog', es:'Nuestro <span>Catalogo</span> de Productos' },
+about_hero_full:{ zh:'<span>关于</span> AutoParts Africa', en:'About <span>AutoParts</span> Africa', es:'<span>Sobre</span> AutoParts Africa' },
+contact_hero_full:{ zh:'<span>联系</span> 我们', en:'Get In <span>Touch</span>', es:'Pongase en <span>Contacto</span>' },
+about_mission_desc:{ zh:'用可靠的汽车配件推动非洲前进', en:'Driving Africa forward with reliable automotive parts', es:'Impulsando Africa con autopartes confiables' },
+about_mission_title:{ zh:'我们的使命', en:'Our Mission', es:'Nuestra Mision' },
+about_vision_title:{ zh:'我们的愿景', en:'Our Vision', es:'Nuestra Vision' },
+about_commit_title:{ zh:'我们的承诺', en:'Our Commitment', es:'Nuestro Compromiso' },
+about_values_desc:{ zh:'指导我们一切工作的原则', en:'The principles that guide everything we do', es:'Los principios que guian todo lo que hacemos' },
+about_quality:{ zh:'质量第一', en:'Quality First', es:'Calidad Primero' },
+about_partner_v:{ zh:'合作伙伴', en:'Partnership', es:'Asociacion' },
+about_reliability:{ zh:'可靠性', en:'Reliability', es:'Confiabilidad' },
+about_africa_focus:{ zh:'聚焦非洲', en:'Africa-Focused', es:'Enfocados en Africa' },
+about_why_desc:{ zh:'非洲是全球增长最快的汽车市场之一', en:"Africa is one of the world's fastest-growing automotive markets", es:'Africa es uno de los mercados automotrices de mas rapido crecimiento' },
+about_partner_desc:{ zh:'加入非洲数百家满意的配件经销商和维修厂', en:'Join hundreds of satisfied auto parts dealers and workshops across Africa', es:'Unase a cientos de comerciantes y talleres satisfechos en Africa' },
+showing_all:{ zh:'显示全部产品', en:'Showing all products', es:'Mostrando todos los productos' },
+select_country:{ zh:'选择国家', en:'Select country', es:'Seleccionar pais' },
+select_brand:{ zh:'选择品牌 (可选)', en:'Select brand (optional)', es:'Seleccionar marca (opcional)' },
+select_inquiry:{ zh:'选择询价类型', en:'Select inquiry type', es:'Seleccionar tipo de consulta' },
+inquiry_quote:{ zh:'询价请求', en:'Request for Quotation', es:'Solicitud de Cotizacion' },
+inquiry_catalog:{ zh:'产品目录请求', en:'Product Catalog Request', es:'Solicitud de Catalogo' },
+inquiry_shipping:{ zh:'运输物流咨询', en:'Shipping & Logistics Inquiry', es:'Consulta de Envio y Logistica' },
+inquiry_partner:{ zh:'合作机会', en:'Partnership Opportunity', es:'Oportunidad de Asociacion' },
+other_country:{ zh:'其他非洲国家', en:'Other African Country', es:'Otro Pais Africano' },
+multiple_brands:{ zh:'多个品牌', en:'Multiple Brands', es:'Multiples Marcas' },
+label_name_ph:{ zh:'您的姓名', en:'Your full name', es:'Su nombre completo' },
+label_company_ph:{ zh:'您的公司名称', en:'Your company name', es:'Nombre de su empresa' },
+label_email_ph:{ zh:'your@email.com', en:'your@email.com', es:'su@email.com' },
+label_phone_ph:{ zh:'您的电话号码含国家代码', en:'Your phone number with country code', es:'Su numero de telefono con codigo de pais' },
+label_message_ph:{ zh:'请描述您需要的配件：车型/年份/零件名称/数量/运输方式', en:'Please describe the parts you need: vehicle make/model/year, part names, quantities, and preferred shipping method', es:'Describa las piezas que necesita: marca/modelo/ano del vehiculo, nombres de piezas, cantidades y metodo de envio preferido' },

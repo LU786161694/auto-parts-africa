@@ -28,8 +28,8 @@
   <!-- Products Hero -->
   <section class="products-hero">
     <div class="container">
-      <h1>Our <span>Product</span> Catalog</h1>
-      <p>Extensive range of Japanese auto parts ready for shipment to Africa</p>
+      <h1 data-i18n-html="prod_hero_full"><span data-i18n="prod_hero_title">Our</span> <span data-i18n="prod_hero_title2">Product</span> Catalog</h1>
+      <p data-i18n="prod_hero_desc">Extensive range of Japanese auto parts ready for shipment to Africa</p>
       <div class="breadcrumb">
         <a href="index.html" data-i18n="nav_home">Home</a><span>/</span><span data-i18n="nav_products">Products</span>
       </div>
@@ -43,14 +43,14 @@
       <!-- Search & Filters -->
       <div class="products-toolbar">
         <div class="search-box">
-          <input type="text" id="searchInput" placeholder="Search parts by name, SKU or model...">
+          <input type="text" id="searchInput" data-i18n-placeholder="search_placeholder" placeholder="Search parts by name, SKU or model...">
           <button id="searchBtn" aria-label="Search">&#128269;</button>
         </div>
       </div>
 
       <!-- Brand Filters -->
       <div class="brand-filter" id="brandFilter">
-        <button class="brand-filter-btn active" data-brand="all">All Brands</button>
+        <button class="brand-filter-btn active" data-brand="all" data-i18n="all_brands">All Brands</button>
         <button class="brand-filter-btn" data-brand="toyota">Toyota</button>
         <button class="brand-filter-btn" data-brand="honda">Honda</button>
         <button class="brand-filter-btn" data-brand="nissan">Nissan</button>
@@ -62,7 +62,7 @@
 
       <!-- Category Tabs -->
       <div class="filter-tabs" id="categoryFilter" style="margin-bottom:30px;">
-        <button class="filter-tab active" data-category="all">All Categories</button>
+        <button class="filter-tab active" data-category="all" data-i18n="all_categories">All Categories</button>
         <button class="filter-tab" data-category="engine">Engine Parts</button>
         <button class="filter-tab" data-category="brakes">Brake Systems</button>
         <button class="filter-tab" data-category="suspension">Suspension</button>
@@ -75,7 +75,7 @@
 
       <!-- Product Results Info -->
       <div style="margin-bottom:20px;color:var(--text-light);">
-        <span id="resultCount">Showing all products</span>
+        <span id="resultCount" data-i18n="showing_all">Showing all products</span>
       </div>
 
       <!-- Products Grid -->
@@ -84,8 +84,8 @@
       <!-- No Results -->
       <div id="noResults" style="display:none;text-align:center;padding:60px 20px;">
         <div style="font-size:4rem;margin-bottom:20px;">&#128270;</div>
-        <h3 style="margin-bottom:10px;">No Products Found</h3>
-        <p style="color:var(--text-light);">Try adjusting your search or filter criteria</p>
+        <h3 style="margin-bottom:10px;" data-i18n="no_products">No Products Found</h3>
+        <p style="color:var(--text-light);" data-i18n="no_products_desc">Try adjusting your search or filter criteria</p>
       </div>
     </div>
   </section>
@@ -93,9 +93,9 @@
   <!-- CTA -->
   <section class="cta">
     <div class="container">
-      <h2>Can't Find What You Need?</h2>
-      <p>Send us your parts list and we'll source it for you at the best price</p>
-      <a href="contact.html" class="btn btn-primary btn-large">Send Inquiry</a>
+      <h2 data-i18n="cant_find">Can't Find What You Need?</h2>
+      <p data-i18n="cant_find_desc">Send us your parts list and we'll source it for you at the best price</p>
+      <a href="contact.html" class="btn btn-primary btn-large" data-i18n="send_inquiry">Send Inquiry</a>
     </div>
   </section>
 
