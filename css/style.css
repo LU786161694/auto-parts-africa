@@ -254,3 +254,13 @@ ul { list-style: none; }
   .search-box { width: 100%; }
   .search-box input { width: 100%; }
 }
+
+/* ===== Language Switcher ===== */
+.lang-switcher { display: flex; gap: 4px; align-items: center; margin-left: 15px; }
+.lang-btn { background: transparent; border: 1px solid rgba(255,255,255,0.3); color: #999; padding: 4px 10px; border-radius: 3px; cursor: pointer; font-size: 0.78rem; transition: all 0.3s; white-space: nowrap; }
+.lang-btn:hover { border-color: var(--primary); color: #fff; }
+.lang-btn.active { background: var(--primary); border-color: var(--primary); color: #fff; }
+@media (max-width: 768px) {
+  .lang-switcher { margin: 10px 0 0 0; justify-content: center; }
+  .lang-btn { padding: 6px 14px; font-size: 0.85rem; }
+}

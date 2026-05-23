@@ -70,15 +70,15 @@ function renderProducts() {
   grid.innerHTML = state.filteredProducts.map(p => `
     <div class="product-card" data-brand="${p.brand}" data-category="${p.category}">
       <div class="product-card-img"><span class="placeholder">${getCategoryEmoji(p.category)}</span></div>
-      ${p.badge ? '<span class="product-card-badge '+(p.badge==='hot'?'hot':'new')+'">'+(p.badge==='hot'?'Hot Seller':'New Arrival')+'</span>' : ''}
+      ${p.badge ? '<span class="product-card-badge '+(p.badge==='hot'?'hot':'new')+'">'+(typeof i18n!=='undefined'?i18n.t(p.badge==='hot'?'hot_seller':'new_arrival'):(p.badge==='hot'?'Hot Seller':'New Arrival'))+'</span>' : ''}
       <div class="product-info">
         <span class="brand-tag">${(p.brand||'').charAt(0).toUpperCase()+(p.brand||'').slice(1)}</span>
         <h3>${p.name}</h3>
         <p class="sku">SKU: ${p.sku}</p>
-        <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:6px;">Fits: ${p.model}</p>
+        <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:6px;">${typeof i18n!=='undefined'?i18n.t('fits_text'):'Fits:'} ${p.model}</p>
         ${p.description ? '<p style="font-size:0.85rem;color:var(--text-light);margin-bottom:8px;">'+p.description.substring(0,100)+'...</p>' : ''}
-        <p class="price">${p.price || 'Inquiry for Price'}</p>
-        <a href="contact.html" class="btn btn-primary btn-small">Inquire Now</a>
+        <p class="price">${p.price || (typeof i18n!=='undefined'?i18n.t('inquiry_price'):'Inquiry for Price')}</p>
+        <a href="contact.html" class="btn btn-primary btn-small">${typeof i18n!=='undefined'?i18n.t('inquire_now'):'Inquire Now'}</a>
       </div>
     </div>
   `).join('');
@@ -201,4 +201,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   initScrollAnimations();
   initContactForm();
   initSmoothScroll();
+  document.addEventListener('langChanged', () => {
+    if ($('#productsGrid')) { filterProducts(); }
+  });
 });

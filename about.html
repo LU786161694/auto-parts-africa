@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -6,6 +6,7 @@
   <meta name="description" content="Learn about AutoParts Africa - our story, mission, and commitment to supplying quality Japanese auto parts across Africa.">
   <title>About Us | AutoParts Africa</title>
   <link rel="stylesheet" href="css/style.css">
+<script src="js/i18n.js"></script>
 </head>
 <body>
 
@@ -14,11 +15,11 @@
     <div class="container">
       <a href="index.html" class="nav-logo">Auto<span>Parts</span> Africa</a>
       <ul class="nav-links" id="navLinks">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="about.html" class="active">About Us</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="contact.html" class="nav-contact-btn">Get Quote</a></li>
+        <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="products.html" data-i18n="nav_products">Products</a></li>
+        <li><a href="about.html" class="active" data-i18n="nav_about">About Us</a></li>
+        <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+        <li><a href="contact.html" class="nav-contact-btn" data-i18n="nav_quote">Get Quote</a><div class="lang-switcher"><button class="lang-btn active" data-lang="en" onclick="i18n.switchTo(`en`)" aria-label="English">EN</button><button class="lang-btn" data-lang="zh" onclick="i18n.switchTo(`zh`)" aria-label="Chinese">CN</button><button class="lang-btn" data-lang="es" onclick="i18n.switchTo(`es`)" aria-label="Spanish">ES</button></div></li>
       </ul>
       <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
     </div>
@@ -30,7 +31,7 @@
       <h1>About <span>AutoParts</span> Africa</h1>
       <p>Bridging the gap between Japanese automotive excellence and African markets</p>
       <div class="breadcrumb">
-        <a href="index.html">Home</a><span>/</span><span>About Us</span>
+        <a href="index.html" data-i18n="nav_home">Home</a><span>/</span><span data-i18n="nav_about">About Us</span>
       </div>
     </div>
   </section>
@@ -120,8 +121,8 @@
         <div class="divider"></div>
       </div>
       <div style="max-width:800px;margin:0 auto;">
-        <p style="margin-bottom:15px;line-height:1.8;color:var(--text-light);">Japanese vehicles dominate African roads. Toyota, Honda, and Nissan are the most trusted and widely driven brands across the continent — from the Toyota Hilux in South African mines to the Honda motorcycles of West African cities.</p>
-        <p style="margin-bottom:15px;line-height:1.8;color:var(--text-light);">However, the supply chain for genuine parts has long been fragmented and expensive. AutoParts Africa exists to streamline this — connecting African businesses directly to the best sources of Japanese auto parts at competitive wholesale prices.</p>
+        <p style="margin-bottom:15px;line-height:1.8;color:var(--text-light);">Japanese vehicles dominate African roads. Toyota, Honda, and Nissan are the most trusted and widely driven brands across the continent 鈥?from the Toyota Hilux in South African mines to the Honda motorcycles of West African cities.</p>
+        <p style="margin-bottom:15px;line-height:1.8;color:var(--text-light);">However, the supply chain for genuine parts has long been fragmented and expensive. AutoParts Africa exists to streamline this 鈥?connecting African businesses directly to the best sources of Japanese auto parts at competitive wholesale prices.</p>
         <p style="line-height:1.8;color:var(--text-light);">With Africa's vehicle fleet growing rapidly, the demand for quality replacement parts has never been higher. We are positioned to serve this demand with integrity, efficiency, and scale.</p>
       </div>
     </div>
@@ -148,10 +149,10 @@
         <div class="footer-links">
           <h4>Quick Links</h4>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+            <li><a href="products.html" data-i18n="nav_products">Products</a></li>
+            <li><a href="about.html" data-i18n="nav_about">About Us</a></li>
+            <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
           </ul>
         </div>
         <div class="footer-links">
