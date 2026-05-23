@@ -134,6 +134,7 @@ async function handleApi(request, path, method) {
         model: data.model || '',
         badge: data.badge || '',
         description: data.description || '',
+        image: data.image || '',
         price: data.price || 'Inquiry for Price'
       };
       productsCache.push(newProduct);
