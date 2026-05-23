@@ -67,16 +67,24 @@ function renderProducts() {
   const count = $('#resultCount');
   if (!grid) return;
 
+  const lang = (typeof i18n !== 'undefined') ? i18n.current : 'en';
+  const pname = (p) => (lang === 'zh' && p.name_zh) ? p.name_zh : (lang === 'es' && p.name_es) ? p.name_es : p.name;
+  const pdesc = (p) => {
+    if (lang === 'zh' && p.desc_zh) return p.desc_zh;
+    if (lang === 'es' && p.desc_es) return p.desc_es;
+    return p.description || '';
+  };
+
   grid.innerHTML = state.filteredProducts.map(p => `
     <div class="product-card" data-brand="${p.brand}" data-category="${p.category}">
       <div class="product-card-img"><span class="placeholder">${getCategoryEmoji(p.category)}</span></div>
       ${p.badge ? '<span class="product-card-badge '+(p.badge==='hot'?'hot':'new')+'">'+(typeof i18n!=='undefined'?i18n.t(p.badge==='hot'?'hot_seller':'new_arrival'):(p.badge==='hot'?'Hot Seller':'New Arrival'))+'</span>' : ''}
       <div class="product-info">
         <span class="brand-tag">${(p.brand||'').charAt(0).toUpperCase()+(p.brand||'').slice(1)}</span>
-        <h3>${p.name}</h3>
+        <h3>${pname(p)}</h3>
         <p class="sku">SKU: ${p.sku}</p>
         <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:6px;">${typeof i18n!=='undefined'?i18n.t('fits_text'):'Fits:'} ${p.model}</p>
-        ${p.description ? '<p style="font-size:0.85rem;color:var(--text-light);margin-bottom:8px;">'+p.description.substring(0,100)+'...</p>' : ''}
+        ${pdesc(p) ? '<p style="font-size:0.85rem;color:var(--text-light);margin-bottom:8px;">'+pdesc(p).substring(0,100)+'...</p>' : ''}
         <p class="price">${p.price || (typeof i18n!=='undefined'?i18n.t('inquiry_price'):'Inquiry for Price')}</p>
         <a href="contact.html" class="btn btn-primary btn-small">${typeof i18n!=='undefined'?i18n.t('inquire_now'):'Inquire Now'}</a>
       </div>
