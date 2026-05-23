@@ -1,1 +1,513 @@
-[{"id":1,"name":"Complete Engine Assembly 1ZZ-FE","brand":"toyota","category":"engine","sku":"ENG-TOY-1ZZFE","model":"Corolla 2000-2008","badge":"hot","description":"Complete 1.8L engine assembly for Toyota Corolla. Includes cylinder head, block, oil pan, and valve cover. Fully tested and ready to install."},{"id":2,"name":"Engine Rebuild Kit 2KD-FTV","brand":"toyota","category":"engine","sku":"ENG-TOY-RBK-2KD","model":"Hilux 2005-2015","badge":"","description":"Complete engine rebuild kit for Toyota Hilux diesel. Includes pistons, rings, gasket set, bearings, and timing belt."},{"id":3,"name":"Timing Chain Kit K24","brand":"honda","category":"engine","sku":"ENG-HON-TCK-K24","model":"Accord/CR-V 2003-2012","badge":"","description":"Complete timing chain kit for Honda K24 engine. Includes chain, tensioner, guides, and all necessary gaskets."},{"id":4,"name":"Complete Cylinder Head 4D56","brand":"mitsubishi","category":"engine","sku":"ENG-MIT-CH-4D56","model":"L200/Pajero 2006-2015","badge":"hot","description":"Complete cylinder head assembly for Mitsubishi 4D56 diesel engine. Includes valves, springs, and camshaft ready for installation."},{"id":5,"name":"Timing Belt Kit M15A","brand":"suzuki","category":"engine","sku":"ENG-SUZ-TBK-M15A","model":"Swift 1.5L 2005-2011","badge":"","description":"Full timing belt replacement kit for Suzuki Swift M15A engine. OEM quality belt, tensioner, and idler pulleys included."},{"id":6,"name":"Oil Pump Assembly QR25DE","brand":"nissan","category":"engine","sku":"ENG-NIS-OP-QR25","model":"X-Trail/Altima 2007-2013","badge":"new","description":"Brand new oil pump assembly for Nissan QR25DE engine. Ensures proper oil circulation and engine longevity."},{"id":7,"name":"Head Gasket Set EJ20","brand":"subaru","category":"engine","sku":"ENG-SUB-HG-EJ20","model":"Impreza/Forester 2002-2012","badge":"","description":"Complete head gasket set for Subaru EJ20 engine. Multi-layer steel construction for reliable sealing under high boost."},{"id":8,"name":"Piston Ring Set L3-VE","brand":"mazda","category":"engine","sku":"ENG-MAZ-PR-L3VE","model":"Mazda3/Mazda6 2.0L","badge":"","description":"Standard size piston ring set for Mazda L3-VE 2.0L engine. OEM specifications for perfect fit and oil control."},{"id":9,"name":"Front Brake Pads Set","brand":"honda","category":"brakes","sku":"BRK-HON-FBP-CV16","model":"Civic 2016-2021","badge":"hot","description":"Premium ceramic front brake pads for Honda Civic 10th gen. Low dust, quiet operation, excellent stopping power."},{"id":10,"name":"Rear Brake Shoes Set","brand":"toyota","category":"brakes","sku":"BRK-TOY-RBS-CR14","model":"Corolla 2014-2019","badge":"","description":"Genuine quality rear brake shoes for Toyota Corolla E170. Complete set with springs and adjusters."},{"id":11,"name":"Front Brake Disc Rotors Pair","brand":"nissan","category":"brakes","sku":"BRK-NIS-FDR-XT31","model":"X-Trail T31 2007-2013","badge":"hot","description":"Pair of ventilated front brake discs for Nissan X-Trail T31. Precision machined for smooth braking performance."},{"id":12,"name":"Brake Master Cylinder","brand":"mitsubishi","category":"brakes","sku":"BRK-MIT-BMC-L200","model":"L200 2010-2019","badge":"","description":"Brake master cylinder for Mitsubishi L200 Triton. Direct fit replacement with proper bore size for optimal braking."},{"id":13,"name":"Brake Caliper Front Left","brand":"toyota","category":"brakes","sku":"BRK-TOY-BCFL-HL","model":"Hilux Vigo 2005-2015","badge":"new","description":"Front left brake caliper for Toyota Hilux Vigo. Complete with piston, seals, and mounting hardware. Ready to bolt on."},{"id":14,"name":"Complete Brake Pad Set","brand":"suzuki","category":"brakes","sku":"BRK-SUZ-BPS-VIT","model":"Vitara 2015-2022","badge":"","description":"Full set of front and rear brake pads for Suzuki Vitara. Semi-metallic compound for excellent durability in all conditions."},{"id":15,"name":"Front Shock Absorber Pair","brand":"nissan","category":"suspension","sku":"SUS-NIS-FSA-XT31","model":"X-Trail T31 2007-2013","badge":"new","description":"Pair of front shock absorbers for Nissan X-Trail T31. Gas-charged for improved ride comfort and handling stability."},{"id":16,"name":"Complete Strut Assembly Front","brand":"toyota","category":"suspension","sku":"SUS-TOY-CSAF-CR14","model":"Corolla 2014-2019","badge":"","description":"Ready-to-install front strut assemblies for Toyota Corolla. Includes spring, mount, and bearing. Sold as a pair."},{"id":17,"name":"Lower Control Arm Front Right","brand":"honda","category":"suspension","sku":"SUS-HON-LCAF-CR12","model":"CR-V 2012-2016","badge":"hot","description":"Front right lower control arm for Honda CR-V. Includes ball joint and bushings pre-installed for easy replacement."},{"id":18,"name":"Stabilizer Link Front Pair","brand":"mitsubishi","category":"suspension","sku":"SUS-MIT-SLFP-PAJ","model":"Pajero Sport 2010-2017","badge":"","description":"Pair of front stabilizer end links for Mitsubishi Pajero Sport. Heavy-duty construction for off-road durability."},{"id":19,"name":"Shock Absorber Rear Pair","brand":"toyota","category":"suspension","sku":"SUS-TOY-SARP-HL","model":"Hilux Revo 2015-2022","badge":"hot","description":"Heavy-duty rear shock absorbers for Toyota Hilux Revo. Designed for both on-road comfort and off-road performance with heavy loads."},{"id":20,"name":"Ball Joint Set Front Lower","brand":"mazda","category":"suspension","sku":"SUS-MAZ-BJFL-CX5","model":"CX-5 2012-2017","badge":"","description":"Front lower ball joint set for Mazda CX-5. Precision fit with grease fitting for extended service life."},{"id":21,"name":"Alternator Assembly 2KD-FTV","brand":"toyota","category":"electrical","sku":"ELE-TOY-ALT-HL2KD","model":"Hilux 2005-2015","badge":"hot","description":"100A alternator for Toyota Hilux 2KD-FTV diesel engine. High output for vehicles with additional electrical accessories."},{"id":22,"name":"Starter Motor Assembly K24","brand":"honda","category":"electrical","sku":"ELE-HON-SM-K24","model":"Accord/CR-V 2003-2012","badge":"","description":"Starter motor for Honda K24 engine. High torque, reliable cold starts. Direct fit replacement with mounting bolts."},{"id":23,"name":"Ignition Coil Set (4 pcs)","brand":"nissan","category":"electrical","sku":"ELE-NIS-ICS-QR25","model":"X-Trail T31 2.5L","badge":"new","description":"Set of 4 ignition coils for Nissan QR25DE engine. Higher energy output than stock for improved combustion efficiency."},{"id":24,"name":"Oxygen Sensor Set Front+Rear","brand":"toyota","category":"electrical","sku":"ELE-TOY-OS-CR14","model":"Corolla 2014-2019","badge":"","description":"Front and rear oxygen sensors for Toyota Corolla. Direct plug-and-play, no cutting or splicing required."},{"id":25,"name":"Alternator 100A","brand":"mitsubishi","category":"electrical","sku":"ELE-MIT-ALT-L200","model":"L200 4D56 2010-2019","badge":"","description":"100 amp alternator for Mitsubishi L200 with 4D56 engine. Built-in voltage regulator, tested for consistent output."},{"id":26,"name":"Engine ECU / ECM","brand":"suzuki","category":"electrical","sku":"ELE-SUZ-ECU-SW10","model":"Swift 1.0L 2010-2017","badge":"","description":"Engine control unit for Suzuki Swift 1.0L K10B engine. Pre-programmed, plug-and-play installation."},{"id":27,"name":"Clutch Kit 3-Piece","brand":"mitsubishi","category":"transmission","sku":"TRA-MIT-CK3-L200","model":"L200 4D56 2006-2015","badge":"hot","description":"Complete 3-piece clutch kit for Mitsubishi L200 diesel. Includes pressure plate, clutch disc, and release bearing."},{"id":28,"name":"Complete Clutch Set","brand":"toyota","category":"transmission","sku":"TRA-TOY-CCS-CR14","model":"Corolla 1.6L Manual","badge":"","description":"OEM quality clutch set for Toyota Corolla manual transmission. Smooth engagement, long service life."},{"id":29,"name":"CV Joint Outer Front","brand":"honda","category":"transmission","sku":"TRA-HON-CVJO-CV16","model":"Civic 2016-2021","badge":"new","description":"Outer CV joint for Honda Civic. Precision machined for smooth power delivery. Includes boot, grease, and clamp."},{"id":30,"name":"Drive Shaft Front Left","brand":"nissan","category":"transmission","sku":"TRA-NIS-DSFL-NV","model":"Navara D40 2005-2015","badge":"","description":"Complete front left drive shaft for Nissan Navara D40. Includes inner and outer CV joints, ready to install."},{"id":31,"name":"Transmission Mount Set","brand":"subaru","category":"transmission","sku":"TRA-SUB-TMS-FOR","model":"Forester 2009-2018","badge":"","description":"Complete transmission mount set for Subaru Forester. Reduces vibration and drivetrain movement."},{"id":32,"name":"Flywheel Assembly","brand":"toyota","category":"transmission","sku":"TRA-TOY-FWA-HL","model":"Hilux 2KD Manual","badge":"hot","description":"Dual mass flywheel for Toyota Hilux 2KD manual transmission. Balanced and ready for installation."},{"id":33,"name":"Headlight Assembly Pair","brand":"nissan","category":"body","sku":"BOD-NIS-HLPA-PTY62","model":"Patrol Y62 2010-2021","badge":"new","description":"Complete headlight assembly pair for Nissan Patrol Y62. Includes bulbs, ballasts, and auto-leveling motors."},{"id":34,"name":"Front Bumper Complete","brand":"toyota","category":"body","sku":"BOD-TOY-FBC-CR14","model":"Corolla 2014-2016","badge":"","description":"Complete front bumper assembly for Toyota Corolla 2014-2016. Primed and ready for painting. Includes mounting brackets."},{"id":35,"name":"Side Mirror Electric Right","brand":"honda","category":"body","sku":"BOD-HON-SMER-CR12","model":"CR-V 2012-2016","badge":"","description":"Power-adjustable right side mirror for Honda CR-V. Includes heating element and turn signal. Direct plug-and-play."},{"id":36,"name":"Tail Light Assembly Rear Right","brand":"mitsubishi","category":"body","sku":"BOD-MIT-TLRR-PAJ","model":"Pajero Sport 2016-2022","badge":"","description":"Rear right tail light for Mitsubishi Pajero Sport. LED type, complete housing with bulbs and wiring harness."},{"id":37,"name":"Radiator Grille","brand":"toyota","category":"body","sku":"BOD-TOY-RG-HL","model":"Hilux Revo 2015-2020","badge":"hot","description":"Front radiator grille for Toyota Hilux Revo. Chrome finish, OEM style. Includes mounting clips and emblem bracket."},{"id":38,"name":"Front Fender Left","brand":"mazda","category":"body","sku":"BOD-MAZ-FFL-CX5","model":"CX-5 2012-2017","badge":"","description":"Front left fender for Mazda CX-5. Primed steel, ready for painting. Pre-drilled mounting holes for perfect fit."},{"id":39,"name":"Oil Filter (Pack of 10)","brand":"toyota","category":"filters","sku":"FIL-TOY-OF10-90915","model":"Universal Japanese Models","badge":"hot","description":"Bulk pack of 10 genuine quality oil filters. Fits most Toyota and many other Japanese models. High filtration efficiency."},{"id":40,"name":"Air Filter Element","brand":"honda","category":"filters","sku":"FIL-HON-AF-CV16","model":"Civic 1.5T 2016-2021","badge":"","description":"Engine air filter for Honda Civic 1.5 Turbo. High flow, excellent dust holding capacity for extended service intervals."},{"id":41,"name":"Fuel Filter Assembly","brand":"nissan","category":"filters","sku":"FIL-NIS-FFA-NP300","model":"NP300/Hardbody Diesel","badge":"","description":"Complete fuel filter assembly for Nissan NP300 diesel. Includes water separator and primer pump."},{"id":42,"name":"Cabin/AC Filter","brand":"toyota","category":"filters","sku":"FIL-TOY-CF-CR14","model":"Corolla 2014-2019","badge":"","description":"Activated carbon cabin air filter for Toyota Corolla. Filters pollen, dust, and odors for cleaner interior air."},{"id":43,"name":"Engine Oil 5W-30 (4L)","brand":"toyota","category":"filters","sku":"FIL-TOY-EO530-4L","model":"Genuine Toyota Oil","badge":"new","description":"Genuine Toyota 5W-30 fully synthetic engine oil 4 liter. Suitable for most modern Toyota gasoline engines."},{"id":44,"name":"Complete Filter Service Kit","brand":"suzuki","category":"filters","sku":"FIL-SUZ-CFK-SW15","model":"Swift 1.5L Service Kit","badge":"","description":"Complete service filter kit for Suzuki Swift 1.5L. Includes oil filter, air filter, and cabin filter in one convenient package."},{"id":45,"name":"Radiator Assembly","brand":"toyota","category":"cooling","sku":"COL-TOY-RAD-CR14","model":"Corolla 1ZZ-FE 2000-2008","badge":"hot","description":"Complete radiator for Toyota Corolla with 1ZZ-FE engine. Aluminum core with plastic tanks. Includes radiator cap."},{"id":46,"name":"Water Pump with Gasket","brand":"honda","category":"cooling","sku":"COL-HON-WPWG-K24","model":"Accord/CR-V K24 Engine","badge":"","description":"Water pump assembly for Honda K24 engine. Includes gasket and O-rings. High-flow impeller for improved cooling."},{"id":47,"name":"Radiator Complete","brand":"nissan","category":"cooling","sku":"COL-NIS-RC-XT31","model":"X-Trail T31 2.0L","badge":"","description":"Complete radiator for Nissan X-Trail T31. Automatic transmission cooler included. Direct replacement, no modifications needed."},{"id":48,"name":"Thermostat Assembly","brand":"mitsubishi","category":"cooling","sku":"COL-MIT-TA-4D56","model":"L200/Strada 4D56 Diesel","badge":"","description":"Thermostat assembly with housing for Mitsubishi 4D56 diesel engine. Correct temperature rating for tropical climates."},{"id":49,"name":"Radiator Cooling Fan Assembly","brand":"toyota","category":"cooling","sku":"COL-TOY-RCFA-HL","model":"Hilux Vigo 2005-2015","badge":"new","description":"Complete radiator cooling fan assembly for Toyota Hilux Vigo. Includes fan shroud, motor, and fan blade."},{"id":50,"name":"Coolant Expansion Tank","brand":"suzuki","category":"cooling","sku":"COL-SUZ-CET-VIT","model":"Vitara 2015-2022","badge":"","description":"Coolant expansion/overflow tank for Suzuki Vitara. Includes pressure cap and level sensor. Direct fit replacement."}]
+[
+  {
+    "id": 1,
+    "name": "Complete Engine Assembly 1ZZ-FE",
+    "brand": "toyota",
+    "category": "engine",
+    "sku": "ENG-TOY-1ZZFE",
+    "model": "Corolla 2000-2008",
+    "badge": "hot",
+    "description": "Complete 1.8L engine assembly for Toyota Corolla. Includes cylinder head, block, oil pan, and valve cover. Fully tested and ready to install."
+  },
+  {
+    "id": 2,
+    "name": "Engine Rebuild Kit 2KD-FTV",
+    "brand": "toyota",
+    "category": "engine",
+    "sku": "ENG-TOY-RBK-2KD",
+    "model": "Hilux 2005-2015",
+    "badge": "",
+    "description": "Complete engine rebuild kit for Toyota Hilux diesel. Includes pistons, rings, gasket set, bearings, and timing belt."
+  },
+  {
+    "id": 3,
+    "name": "Timing Chain Kit K24",
+    "brand": "honda",
+    "category": "engine",
+    "sku": "ENG-HON-TCK-K24",
+    "model": "Accord/CR-V 2003-2012",
+    "badge": "",
+    "description": "Complete timing chain kit for Honda K24 engine. Includes chain, tensioner, guides, and all necessary gaskets."
+  },
+  {
+    "id": 4,
+    "name": "Complete Cylinder Head 4D56",
+    "brand": "mitsubishi",
+    "category": "engine",
+    "sku": "ENG-MIT-CH-4D56",
+    "model": "L200/Pajero 2006-2015",
+    "badge": "hot",
+    "description": "Complete cylinder head assembly for Mitsubishi 4D56 diesel engine. Includes valves, springs, and camshaft ready for installation."
+  },
+  {
+    "id": 5,
+    "name": "Timing Belt Kit M15A",
+    "brand": "suzuki",
+    "category": "engine",
+    "sku": "ENG-SUZ-TBK-M15A",
+    "model": "Swift 1.5L 2005-2011",
+    "badge": "",
+    "description": "Full timing belt replacement kit for Suzuki Swift M15A engine. OEM quality belt, tensioner, and idler pulleys included."
+  },
+  {
+    "id": 6,
+    "name": "Oil Pump Assembly QR25DE",
+    "brand": "nissan",
+    "category": "engine",
+    "sku": "ENG-NIS-OP-QR25",
+    "model": "X-Trail/Altima 2007-2013",
+    "badge": "new",
+    "description": "Brand new oil pump assembly for Nissan QR25DE engine. Ensures proper oil circulation and engine longevity."
+  },
+  {
+    "id": 7,
+    "name": "Head Gasket Set EJ20",
+    "brand": "subaru",
+    "category": "engine",
+    "sku": "ENG-SUB-HG-EJ20",
+    "model": "Impreza/Forester 2002-2012",
+    "badge": "",
+    "description": "Complete head gasket set for Subaru EJ20 engine. Multi-layer steel construction for reliable sealing under high boost."
+  },
+  {
+    "id": 8,
+    "name": "Piston Ring Set L3-VE",
+    "brand": "mazda",
+    "category": "engine",
+    "sku": "ENG-MAZ-PR-L3VE",
+    "model": "Mazda3/Mazda6 2.0L",
+    "badge": "",
+    "description": "Standard size piston ring set for Mazda L3-VE 2.0L engine. OEM specifications for perfect fit and oil control."
+  },
+  {
+    "id": 9,
+    "name": "Front Brake Pads Set",
+    "brand": "honda",
+    "category": "brakes",
+    "sku": "BRK-HON-FBP-CV16",
+    "model": "Civic 2016-2021",
+    "badge": "hot",
+    "description": "Premium ceramic front brake pads for Honda Civic 10th gen. Low dust, quiet operation, excellent stopping power."
+  },
+  {
+    "id": 10,
+    "name": "Rear Brake Shoes Set",
+    "brand": "toyota",
+    "category": "brakes",
+    "sku": "BRK-TOY-RBS-CR14",
+    "model": "Corolla 2014-2019",
+    "badge": "",
+    "description": "Genuine quality rear brake shoes for Toyota Corolla E170. Complete set with springs and adjusters."
+  },
+  {
+    "id": 11,
+    "name": "Front Brake Disc Rotors Pair",
+    "brand": "nissan",
+    "category": "brakes",
+    "sku": "BRK-NIS-FDR-XT31",
+    "model": "X-Trail T31 2007-2013",
+    "badge": "hot",
+    "description": "Pair of ventilated front brake discs for Nissan X-Trail T31. Precision machined for smooth braking performance."
+  },
+  {
+    "id": 12,
+    "name": "Brake Master Cylinder",
+    "brand": "mitsubishi",
+    "category": "brakes",
+    "sku": "BRK-MIT-BMC-L200",
+    "model": "L200 2010-2019",
+    "badge": "",
+    "description": "Brake master cylinder for Mitsubishi L200 Triton. Direct fit replacement with proper bore size for optimal braking."
+  },
+  {
+    "id": 13,
+    "name": "Brake Caliper Front Left",
+    "brand": "toyota",
+    "category": "brakes",
+    "sku": "BRK-TOY-BCFL-HL",
+    "model": "Hilux Vigo 2005-2015",
+    "badge": "new",
+    "description": "Front left brake caliper for Toyota Hilux Vigo. Complete with piston, seals, and mounting hardware. Ready to bolt on."
+  },
+  {
+    "id": 14,
+    "name": "Complete Brake Pad Set",
+    "brand": "suzuki",
+    "category": "brakes",
+    "sku": "BRK-SUZ-BPS-VIT",
+    "model": "Vitara 2015-2022",
+    "badge": "",
+    "description": "Full set of front and rear brake pads for Suzuki Vitara. Semi-metallic compound for excellent durability in all conditions."
+  },
+  {
+    "id": 15,
+    "name": "Front Shock Absorber Pair",
+    "brand": "nissan",
+    "category": "suspension",
+    "sku": "SUS-NIS-FSA-XT31",
+    "model": "X-Trail T31 2007-2013",
+    "badge": "new",
+    "description": "Pair of front shock absorbers for Nissan X-Trail T31. Gas-charged for improved ride comfort and handling stability."
+  },
+  {
+    "id": 16,
+    "name": "Complete Strut Assembly Front",
+    "brand": "toyota",
+    "category": "suspension",
+    "sku": "SUS-TOY-CSAF-CR14",
+    "model": "Corolla 2014-2019",
+    "badge": "",
+    "description": "Ready-to-install front strut assemblies for Toyota Corolla. Includes spring, mount, and bearing. Sold as a pair."
+  },
+  {
+    "id": 17,
+    "name": "Lower Control Arm Front Right",
+    "brand": "honda",
+    "category": "suspension",
+    "sku": "SUS-HON-LCAF-CR12",
+    "model": "CR-V 2012-2016",
+    "badge": "hot",
+    "description": "Front right lower control arm for Honda CR-V. Includes ball joint and bushings pre-installed for easy replacement."
+  },
+  {
+    "id": 18,
+    "name": "Stabilizer Link Front Pair",
+    "brand": "mitsubishi",
+    "category": "suspension",
+    "sku": "SUS-MIT-SLFP-PAJ",
+    "model": "Pajero Sport 2010-2017",
+    "badge": "",
+    "description": "Pair of front stabilizer end links for Mitsubishi Pajero Sport. Heavy-duty construction for off-road durability."
+  },
+  {
+    "id": 19,
+    "name": "Shock Absorber Rear Pair",
+    "brand": "toyota",
+    "category": "suspension",
+    "sku": "SUS-TOY-SARP-HL",
+    "model": "Hilux Revo 2015-2022",
+    "badge": "hot",
+    "description": "Heavy-duty rear shock absorbers for Toyota Hilux Revo. Designed for both on-road comfort and off-road performance with heavy loads."
+  },
+  {
+    "id": 20,
+    "name": "Ball Joint Set Front Lower",
+    "brand": "mazda",
+    "category": "suspension",
+    "sku": "SUS-MAZ-BJFL-CX5",
+    "model": "CX-5 2012-2017",
+    "badge": "",
+    "description": "Front lower ball joint set for Mazda CX-5. Precision fit with grease fitting for extended service life."
+  },
+  {
+    "id": 21,
+    "name": "Alternator Assembly 2KD-FTV",
+    "brand": "toyota",
+    "category": "electrical",
+    "sku": "ELE-TOY-ALT-HL2KD",
+    "model": "Hilux 2005-2015",
+    "badge": "hot",
+    "description": "100A alternator for Toyota Hilux 2KD-FTV diesel engine. High output for vehicles with additional electrical accessories."
+  },
+  {
+    "id": 22,
+    "name": "Starter Motor Assembly K24",
+    "brand": "honda",
+    "category": "electrical",
+    "sku": "ELE-HON-SM-K24",
+    "model": "Accord/CR-V 2003-2012",
+    "badge": "",
+    "description": "Starter motor for Honda K24 engine. High torque, reliable cold starts. Direct fit replacement with mounting bolts."
+  },
+  {
+    "id": 23,
+    "name": "Ignition Coil Set (4 pcs)",
+    "brand": "nissan",
+    "category": "electrical",
+    "sku": "ELE-NIS-ICS-QR25",
+    "model": "X-Trail T31 2.5L",
+    "badge": "new",
+    "description": "Set of 4 ignition coils for Nissan QR25DE engine. Higher energy output than stock for improved combustion efficiency."
+  },
+  {
+    "id": 24,
+    "name": "Oxygen Sensor Set Front+Rear",
+    "brand": "toyota",
+    "category": "electrical",
+    "sku": "ELE-TOY-OS-CR14",
+    "model": "Corolla 2014-2019",
+    "badge": "",
+    "description": "Front and rear oxygen sensors for Toyota Corolla. Direct plug-and-play, no cutting or splicing required."
+  },
+  {
+    "id": 25,
+    "name": "Alternator 100A",
+    "brand": "mitsubishi",
+    "category": "electrical",
+    "sku": "ELE-MIT-ALT-L200",
+    "model": "L200 4D56 2010-2019",
+    "badge": "",
+    "description": "100 amp alternator for Mitsubishi L200 with 4D56 engine. Built-in voltage regulator, tested for consistent output."
+  },
+  {
+    "id": 26,
+    "name": "Engine ECU / ECM",
+    "brand": "suzuki",
+    "category": "electrical",
+    "sku": "ELE-SUZ-ECU-SW10",
+    "model": "Swift 1.0L 2010-2017",
+    "badge": "",
+    "description": "Engine control unit for Suzuki Swift 1.0L K10B engine. Pre-programmed, plug-and-play installation."
+  },
+  {
+    "id": 27,
+    "name": "Clutch Kit 3-Piece",
+    "brand": "mitsubishi",
+    "category": "transmission",
+    "sku": "TRA-MIT-CK3-L200",
+    "model": "L200 4D56 2006-2015",
+    "badge": "hot",
+    "description": "Complete 3-piece clutch kit for Mitsubishi L200 diesel. Includes pressure plate, clutch disc, and release bearing."
+  },
+  {
+    "id": 28,
+    "name": "Complete Clutch Set",
+    "brand": "toyota",
+    "category": "transmission",
+    "sku": "TRA-TOY-CCS-CR14",
+    "model": "Corolla 1.6L Manual",
+    "badge": "",
+    "description": "OEM quality clutch set for Toyota Corolla manual transmission. Smooth engagement, long service life."
+  },
+  {
+    "id": 29,
+    "name": "CV Joint Outer Front",
+    "brand": "honda",
+    "category": "transmission",
+    "sku": "TRA-HON-CVJO-CV16",
+    "model": "Civic 2016-2021",
+    "badge": "new",
+    "description": "Outer CV joint for Honda Civic. Precision machined for smooth power delivery. Includes boot, grease, and clamp."
+  },
+  {
+    "id": 30,
+    "name": "Drive Shaft Front Left",
+    "brand": "nissan",
+    "category": "transmission",
+    "sku": "TRA-NIS-DSFL-NV",
+    "model": "Navara D40 2005-2015",
+    "badge": "",
+    "description": "Complete front left drive shaft for Nissan Navara D40. Includes inner and outer CV joints, ready to install."
+  },
+  {
+    "id": 31,
+    "name": "Transmission Mount Set",
+    "brand": "subaru",
+    "category": "transmission",
+    "sku": "TRA-SUB-TMS-FOR",
+    "model": "Forester 2009-2018",
+    "badge": "",
+    "description": "Complete transmission mount set for Subaru Forester. Reduces vibration and drivetrain movement."
+  },
+  {
+    "id": 32,
+    "name": "Flywheel Assembly",
+    "brand": "toyota",
+    "category": "transmission",
+    "sku": "TRA-TOY-FWA-HL",
+    "model": "Hilux 2KD Manual",
+    "badge": "hot",
+    "description": "Dual mass flywheel for Toyota Hilux 2KD manual transmission. Balanced and ready for installation."
+  },
+  {
+    "id": 33,
+    "name": "Headlight Assembly Pair",
+    "brand": "nissan",
+    "category": "body",
+    "sku": "BOD-NIS-HLPA-PTY62",
+    "model": "Patrol Y62 2010-2021",
+    "badge": "new",
+    "description": "Complete headlight assembly pair for Nissan Patrol Y62. Includes bulbs, ballasts, and auto-leveling motors."
+  },
+  {
+    "id": 34,
+    "name": "Front Bumper Complete",
+    "brand": "toyota",
+    "category": "body",
+    "sku": "BOD-TOY-FBC-CR14",
+    "model": "Corolla 2014-2016",
+    "badge": "",
+    "description": "Complete front bumper assembly for Toyota Corolla 2014-2016. Primed and ready for painting. Includes mounting brackets."
+  },
+  {
+    "id": 35,
+    "name": "Side Mirror Electric Right",
+    "brand": "honda",
+    "category": "body",
+    "sku": "BOD-HON-SMER-CR12",
+    "model": "CR-V 2012-2016",
+    "badge": "",
+    "description": "Power-adjustable right side mirror for Honda CR-V. Includes heating element and turn signal. Direct plug-and-play."
+  },
+  {
+    "id": 36,
+    "name": "Tail Light Assembly Rear Right",
+    "brand": "mitsubishi",
+    "category": "body",
+    "sku": "BOD-MIT-TLRR-PAJ",
+    "model": "Pajero Sport 2016-2022",
+    "badge": "",
+    "description": "Rear right tail light for Mitsubishi Pajero Sport. LED type, complete housing with bulbs and wiring harness."
+  },
+  {
+    "id": 37,
+    "name": "Radiator Grille",
+    "brand": "toyota",
+    "category": "body",
+    "sku": "BOD-TOY-RG-HL",
+    "model": "Hilux Revo 2015-2020",
+    "badge": "hot",
+    "description": "Front radiator grille for Toyota Hilux Revo. Chrome finish, OEM style. Includes mounting clips and emblem bracket."
+  },
+  {
+    "id": 38,
+    "name": "Front Fender Left",
+    "brand": "mazda",
+    "category": "body",
+    "sku": "BOD-MAZ-FFL-CX5",
+    "model": "CX-5 2012-2017",
+    "badge": "",
+    "description": "Front left fender for Mazda CX-5. Primed steel, ready for painting. Pre-drilled mounting holes for perfect fit."
+  },
+  {
+    "id": 39,
+    "name": "Oil Filter (Pack of 10)",
+    "brand": "toyota",
+    "category": "filters",
+    "sku": "FIL-TOY-OF10-90915",
+    "model": "Universal Japanese Models",
+    "badge": "hot",
+    "description": "Bulk pack of 10 genuine quality oil filters. Fits most Toyota and many other Japanese models. High filtration efficiency."
+  },
+  {
+    "id": 40,
+    "name": "Air Filter Element",
+    "brand": "honda",
+    "category": "filters",
+    "sku": "FIL-HON-AF-CV16",
+    "model": "Civic 1.5T 2016-2021",
+    "badge": "",
+    "description": "Engine air filter for Honda Civic 1.5 Turbo. High flow, excellent dust holding capacity for extended service intervals."
+  },
+  {
+    "id": 41,
+    "name": "Fuel Filter Assembly",
+    "brand": "nissan",
+    "category": "filters",
+    "sku": "FIL-NIS-FFA-NP300",
+    "model": "NP300/Hardbody Diesel",
+    "badge": "",
+    "description": "Complete fuel filter assembly for Nissan NP300 diesel. Includes water separator and primer pump."
+  },
+  {
+    "id": 42,
+    "name": "Cabin/AC Filter",
+    "brand": "toyota",
+    "category": "filters",
+    "sku": "FIL-TOY-CF-CR14",
+    "model": "Corolla 2014-2019",
+    "badge": "",
+    "description": "Activated carbon cabin air filter for Toyota Corolla. Filters pollen, dust, and odors for cleaner interior air."
+  },
+  {
+    "id": 43,
+    "name": "Engine Oil 5W-30 (4L)",
+    "brand": "toyota",
+    "category": "filters",
+    "sku": "FIL-TOY-EO530-4L",
+    "model": "Genuine Toyota Oil",
+    "badge": "new",
+    "description": "Genuine Toyota 5W-30 fully synthetic engine oil 4 liter. Suitable for most modern Toyota gasoline engines."
+  },
+  {
+    "id": 44,
+    "name": "Complete Filter Service Kit",
+    "brand": "suzuki",
+    "category": "filters",
+    "sku": "FIL-SUZ-CFK-SW15",
+    "model": "Swift 1.5L Service Kit",
+    "badge": "",
+    "description": "Complete service filter kit for Suzuki Swift 1.5L. Includes oil filter, air filter, and cabin filter in one convenient package."
+  },
+  {
+    "id": 45,
+    "name": "Radiator Assembly",
+    "brand": "toyota",
+    "category": "cooling",
+    "sku": "COL-TOY-RAD-CR14",
+    "model": "Corolla 1ZZ-FE 2000-2008",
+    "badge": "hot",
+    "description": "Complete radiator for Toyota Corolla with 1ZZ-FE engine. Aluminum core with plastic tanks. Includes radiator cap."
+  },
+  {
+    "id": 46,
+    "name": "Water Pump with Gasket",
+    "brand": "honda",
+    "category": "cooling",
+    "sku": "COL-HON-WPWG-K24",
+    "model": "Accord/CR-V K24 Engine",
+    "badge": "",
+    "description": "Water pump assembly for Honda K24 engine. Includes gasket and O-rings. High-flow impeller for improved cooling."
+  },
+  {
+    "id": 47,
+    "name": "Radiator Complete",
+    "brand": "nissan",
+    "category": "cooling",
+    "sku": "COL-NIS-RC-XT31",
+    "model": "X-Trail T31 2.0L",
+    "badge": "",
+    "description": "Complete radiator for Nissan X-Trail T31. Automatic transmission cooler included. Direct replacement, no modifications needed."
+  },
+  {
+    "id": 48,
+    "name": "Thermostat Assembly",
+    "brand": "mitsubishi",
+    "category": "cooling",
+    "sku": "COL-MIT-TA-4D56",
+    "model": "L200/Strada 4D56 Diesel",
+    "badge": "",
+    "description": "Thermostat assembly with housing for Mitsubishi 4D56 diesel engine. Correct temperature rating for tropical climates."
+  },
+  {
+    "id": 49,
+    "name": "Radiator Cooling Fan Assembly",
+    "brand": "toyota",
+    "category": "cooling",
+    "sku": "COL-TOY-RCFA-HL",
+    "model": "Hilux Vigo 2005-2015",
+    "badge": "new",
+    "description": "Complete radiator cooling fan assembly for Toyota Hilux Vigo. Includes fan shroud, motor, and fan blade."
+  },
+  {
+    "id": 50,
+    "name": "Coolant Expansion Tank",
+    "brand": "suzuki",
+    "category": "cooling",
+    "sku": "COL-SUZ-CET-VIT",
+    "model": "Vitara 2015-2022",
+    "badge": "",
+    "description": "Coolant expansion/overflow tank for Suzuki Vitara. Includes pressure cap and level sensor. Direct fit replacement."
+  },
+  {
+    "id": 1779534622969,
+    "name": "TEST Brake Pads - Toyota",
+    "brand": "toyota",
+    "category": "brakes",
+    "sku": "TST-BRK-001",
+    "model": "Test Model 2024",
+    "badge": "new",
+    "description": "This is a test product created via API",
+    "price": "Inquiry for Price"
+  }
+]
